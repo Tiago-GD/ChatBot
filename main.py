@@ -14,7 +14,7 @@ MODELOS = [
 #CONFIGURAR PÁGINA ------------------------------------
 def configurar_pagina():
     st.set_page_config(page_title="Mi primer Chatbot con Python")
-    st.title("Bienvenidos a mi Chatbot")
+    st.title("Bienvenido a Tu Asistente Virtual")
 #  ----------------------------------------------------
 
 #CREAR UN CLIENTE GROQ (NOSOTROS) ---------------------
@@ -26,7 +26,7 @@ def crear_un_cliente_groq():
 #MOSTRAR BARRA LATERAL --------------------------------
 def mostrar_sidebar():
     st.sidebar.title("Elegí tu modelo de IA")
-    modelo = st.sidebar.selectbox("Elegí tu modelo:", MODELOS, index=0)
+    modelo = st.sidebar.selectbox("Modelos a elección:", MODELOS, index=0)
     st.write(f"**Elegiste el modelo: {modelo}**")
     return modelo
 #  ----------------------------------------------------
