@@ -7,7 +7,7 @@ MODELOS = [
     'llama-3.1-8b-instant',
     'llama-3.3-70b-versatile',
     'gemma2-9b-it',
-    'deepseek-r1-distill-llama-70b'
+    # 'deepseek-r1-distill-llama-70b'
 ]
 
 
